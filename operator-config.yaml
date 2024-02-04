@@ -22,24 +22,24 @@ operator: 0x206E4f915112773B251aa19D0717A80A24d0cF5b
 
 # EigenLayer Slasher contract address
 # This will be provided by EigenLayer team
-el_slasher_address: 
+el_slasher_address: 0xD11d60b669Ecf7bE10329726043B3ac07B380C22
 
 # Address of BLS Public Key Compendium contract
 # This will be provided by EigenLayer team
-bls_public_key_compendium_address:
+bls_public_key_compendium_address: 0xc81d3963087Fe09316cd1E032457989C7aC91b19
 
 # ETH RPC URL to the ethereum node you are using for on-chain operations
-eth_rpc_url: https://eth-mainnet.g.alchemy.com/v2/LUjEeyj-T6ZheIO-GDSU3oNhL_1R-Qli
+eth_rpc_url: https://ethereum-goerli.publicnode.com
 
 # Signer Type to use
 # Supported values: local_keystore
 signer_type: local_keystore
 
 # Full path to local ecdsa private key store file
-private_key_store_path: <path-to>/test.ecdsa.key.json
+private_key_store_path: /home/rudydaberri/.eigenlayer/operator_keys/rudydaberri.ecdsa.key.json
 
 # Full path to local bls private key store file
-bls_private_key_store_path: <path-to>/test.bls.key.json
+bls_private_key_store_path: /home/rudydaberri/.eigenlayer/operator_keys/rudydaberri.bls.key.json
 
 # Chain ID: 1 for mainnet, 5 for Goerli, 17000 for holesky, 31337 for local
 chain_id: 5
